@@ -1,0 +1,25 @@
+# calculate the number of days until my f1 vis runs out
+
+# Days left in December
+
+dec = 10
+jan = 31
+feb = 28
+mar = 31
+apr = 19
+
+days_left =  dec + jan + feb + mar + apr
+days_calc = 31 - 21 + 31 + 28 + 31 + 19
+
+print "You Have", days_calc, "Days Left Until Your Visa Runs Out."
+
+print "December:", dec, "Days" 
+print "January:", jan, "Days" 
+print "February:", feb, "Days" 
+print "March:", mar, "Days" 
+print "April:", apr, "Days"
+
+print "This should be equal to", days_left, "days."
+
+print "Do the above match up?"
+print days_left == days_calc
